@@ -1,0 +1,10 @@
+serviceName: Accounting
+routingFolder: accounting
+host: localhost
+port: 8080
+settings:
+  connections.sql.schema:
+    - sla
+cache:
+  clean_interval: 0
+  reset_interval: 0
