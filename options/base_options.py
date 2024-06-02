@@ -3,6 +3,7 @@ import os
 
 class BaseOptions(IOptions):
     SERVICE_NAME = "serviceName"
+    ROUTING_TYPE = "routingType"
     ROUTING_FOLDER = "routingFolder"
     HOST = "host"
     PORT = "port"

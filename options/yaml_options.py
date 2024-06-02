@@ -14,6 +14,7 @@ class YamlBaseOptions(BaseOptions):
         
         return Options(
             self.__json_data[BaseOptions.SERVICE_NAME],
+            self.__json_data[BaseOptions.ROUTING_TYPE],
             self.__json_data[BaseOptions.ROUTING_FOLDER],
             self.__json_data[BaseOptions.HOST],
             int(self.__json_data[BaseOptions.PORT]),

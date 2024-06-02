@@ -3,6 +3,7 @@ from dataclasses import dataclass
 @dataclass
 class Options:
     service_name: str
+    routing_type: str
     routing_folder: str
     host: str
     port: int
@@ -12,10 +13,10 @@ class Options:
     @property
     def as_edge_options(self):
         return {
-            "server": f"{self.host}: {self.port}",
+            f"{self.routing_type}": f"{self.host}: {self.port}",
             "router": {
-                "restful": [self.routing_folder],
-                "web": ["*"],
+                "web": ["/widget"],
+                "restful": ["*"],
             },
             "log_error": True,
             "settings": self.settings,

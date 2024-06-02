@@ -1,5 +1,6 @@
-serviceName: Accounting
-routingFolder: accounting
+serviceName: Abolfazl
+routingFolder: jlo
+routingType: server
 host: localhost
 port: 8080
 settings:

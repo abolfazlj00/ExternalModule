@@ -1,0 +1,198 @@
+{
+    "menu": {
+        "nodes": [
+            {
+                "title": "Gallery",
+                "mid": 1,
+                "pid": 1
+            },
+            {
+                "title": "Company Information",
+                "nodes": [
+                    {
+                        "title": "Company View",
+                        "mid": 1,
+                        "pid": 2
+                    }
+                ]
+            }
+        ]
+    },
+    "sidebars": [
+        {
+            "id": 1,
+            "data": {
+                "nodes": [
+                    {
+                        "title": "Introduction", 
+                        "pid": 1
+                    }, 
+                    {
+                        "title": "Images And Attachments", 
+                        "pid": 2
+                    }
+                ]
+            }
+        }
+    ],
+    "pages": [
+        {
+            "id": 1,
+            "data": {
+                "container": "container",
+                "title": "Gallery",
+                "groups": [
+                    {
+                        "groupname": "objects",
+                        "options":  {
+                            "repositories": {
+                                "grid.grid": "https://cdn.basiscore.net/basispanel.ir/_js/basiscore.grid.component.js?ver=4", 
+                                "bc.verticalTabManager": "https://cdn.basiscore.net/basispanel.ir/asset/js/basiscore.tabManager.js", 
+                                "calendar.calendar": "https://cdn.basiscore.net/basispanel.ir/asset/js/basiscore.calendar.component-1.0.0.js?ver=2", 
+                                "calendar.datepicker": "https://cdn.basiscore.net/basispanel.ir/asset/js/basiscore.calendar.component.js?ver=2"}, 
+                                "settings": {
+                                    "connection.web.callcommand": "/server/[rkey]/widget/", 
+                                    "connection.web.basiscore": "https://basispanel.ir/api/[rkey]", 
+                                    "connection.web.media": "https://basispanel.ir/api/[rkey]", 
+                                    "connection.web.hosting": "https://basispanel.ir/api/[rkey]", 
+                                    "connection.web.panel_basiscore": "https://basispanel.ir/basiscore_client/", 
+                                    "default.dmnid": 0, 
+                                    "default.call.verb": "get", 
+                                    "default.dbsource.verb": "post", 
+                                    "default.binding.regex": "\\{##([^#]*)##\\}"
+                                }
+                            },
+                        "widgets": [
+                            {
+                                "id": 54, 
+                                "title": null, 
+                                "name": null, 
+                                "moduleid": 1, 
+                                "x": 0, 
+                                "y": 0, 
+                                "w": 3, 
+                                "h": 4, 
+                                "container": "widget"
+                            }, 
+                            {
+                                "id": 210, 
+                                "title": null, 
+                                "name": null, 
+                                "moduleid": 1, 
+                                "x": 6, 
+                                "y": 0, 
+                                "w": 6, 
+                                "h": 4, 
+                                "container": "widget"
+                            }
+                        ]
+                    },
+                    {
+                        "groupname": "noOption",
+                        "options": {},
+                        "widgets": [
+                            {
+                                "id": 141, 
+                                "title": null, 
+                                "name": null, 
+                                "moduleid": 1, 
+                                "x": 3, 
+                                "y": 0, 
+                                "w": 3, 
+                                "h": 4, 
+                                "container": "widget"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "data": {
+                "container": "container",
+                "title": "Company View",
+                "groups": [
+                    {
+                        "groupname": "objects",
+                        "options":  {
+                            "repositories": {
+                                "grid.grid": "https://cdn.basiscore.net/basispanel.ir/_js/basiscore.grid.component.js?ver=4", 
+                                "bc.verticalTabManager": "https://cdn.basiscore.net/basispanel.ir/asset/js/basiscore.tabManager.js", 
+                                "calendar.calendar": "https://cdn.basiscore.net/basispanel.ir/asset/js/basiscore.calendar.component-1.0.0.js?ver=2", 
+                                "calendar.datepicker": "https://cdn.basiscore.net/basispanel.ir/asset/js/basiscore.calendar.component.js?ver=2"}, 
+                                "settings": {
+                                    "connection.web.callcommand": "/server/[rkey]/widget/", 
+                                    "connection.web.basiscore": "https://basispanel.ir/api/[rkey]", 
+                                    "connection.web.media": "https://basispanel.ir/api/[rkey]", 
+                                    "connection.web.hosting": "https://basispanel.ir/api/[rkey]", 
+                                    "connection.web.panel_basiscore": "https://basispanel.ir/basiscore_client/", 
+                                    "default.dmnid": 0, 
+                                    "default.call.verb": "get", 
+                                    "default.dbsource.verb": "post", 
+                                    "default.binding.regex": "\\{##([^#]*)##\\}"
+                                }
+                            },
+                        "widgets": [
+                            {
+                                "id": 54, 
+                                "title": null, 
+                                "name": null, 
+                                "moduleid": 1, 
+                                "x": 0, 
+                                "y": 0, 
+                                "w": 3, 
+                                "h": 4, 
+                                "container": "widget"
+                            }, 
+                            {
+                                "id": 210, 
+                                "title": null, 
+                                "name": null, 
+                                "moduleid": 1, 
+                                "x": 6, 
+                                "y": 0, 
+                                "w": 6, 
+                                "h": 4, 
+                                "container": "widget"
+                            }
+                        ]
+                    },
+                    {
+                        "groupname": "noOption",
+                        "options": {},
+                        "widgets": [
+                            {
+                                "id": 141, 
+                                "title": null, 
+                                "name": null, 
+                                "moduleid": 1, 
+                                "x": 3, 
+                                "y": 0, 
+                                "w": 3, 
+                                "h": 4, 
+                                "container": "widget"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "widgets": [
+        {
+            "id": 1,
+            "data": "Hello world!\nThis is widget 1"
+        }
+    ],
+    "errors": [
+        {
+            "errorCode": 1,
+            "errorMessage": "error_1"
+        },
+        {
+            "errorCode": 2,
+            "errorMessage": "error_2"
+        }
+    ]
+}
